@@ -5,7 +5,6 @@
 
 import UIKit
 import MapKit
-import WatchKit
 
 // MARK: - ImageCacheKeys Struct
 fileprivate struct ImageCacheKeys {

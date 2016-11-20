@@ -116,8 +116,6 @@ final public class KFImageCacheManager {
                             loadObserver(button, image: image, initialIndexIdentifier: initialIndexIdentifier)
                         case let annotationView as MKAnnotationView:
                             loadObserver(annotationView, image: image)
-                        case let interfaceImage as WKInterfaceImage:
-                            loadObserver(interfaceImage, image: image, key: key)
                         default:
                             break
                         }
